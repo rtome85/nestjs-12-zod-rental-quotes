@@ -1,0 +1,25 @@
+{
+  "name": "nestjs-12-zod-rental-quotes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A fresh equipment-rental quote API demonstrating native Standard Schema validation in NestJS 12 with Zod.",
+  "type": "module",
+  "engines": { "node": ">=24.15.0" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/main.js",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "12.3.2",
+    "@nestjs/core": "12.3.2",
+    "@nestjs/platform-express": "12.3.2",
+    "reflect-metadata": "0.2.2",
+    "rxjs": "7.8.2",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "typescript": "6.0.3"
+  }
+}
